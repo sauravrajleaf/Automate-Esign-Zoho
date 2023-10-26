@@ -5,6 +5,9 @@
     <label for="fileInput" class="custom-file-input">Choose File</label>
     <input id="fileInput" type="file" (change)="onFileSelected($event)" />
     <button (click)="uploadFile()">Upload</button>
+    <button (click)="previewFile()">Preview File</button>
+    <button (click)="addEsignTags()">Add Esign Tags</button>
+    <button (click)="submitEsign()">Submit to Esign</button>
   </div>
   <div class="content">
     <router-outlet></router-outlet>

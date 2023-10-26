@@ -17,4 +17,19 @@ export class AppComponent {
     console.log('event', event);
     return;
   };
+
+  previewFile = () => {
+    console.log('clicked on Preview File');
+    return;
+  };
+
+  addEsignTags = () => {
+    console.log('clicked on Add Esign Tags');
+    return;
+  };
+
+  submitEsign = () => {
+    console.log('clicked on Submit to Esign');
+    return;
+  };
 }
